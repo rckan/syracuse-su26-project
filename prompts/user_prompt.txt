@@ -1,0 +1,17 @@
+Article ID:
+{article_id}
+
+Publication Date:
+{publication_date}
+
+Source:
+{source}
+
+Title:
+{title}
+
+Summary:
+{summary}
+
+Article:
+{text}
