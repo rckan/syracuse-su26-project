@@ -3,3 +3,4 @@
 /data/newsroom-release.tar:Zone.Identifier
 newsroom-env/
 newsroom/
+.env
