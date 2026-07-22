@@ -1,35 +1,245 @@
 [
   {
     "article_id": "article_id",
-    "publication_date": "2011082419",
-    "source": "https://web.archive.org/web/2011082419id_/http://ireport.cnn.com/blogs/ireport-blog/2011/08/22/update-you-asked-the-white-house-responds",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2014111719",
-    "source": "https://web.archive.org/web/2014111719id_/http://www.foxnews.com/travel/2014/11/17/starry-night-bike-path-illuminates-ground-to-celebrate-vincent-van-gogh/",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2008090419",
-    "source": "https://web.archive.org/web/2008090419id_/http://www.nytimes.com/2008/09/04/business/04wind.html",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
     "publication_date": "2015103019",
     "source": "https://web.archive.org/web/2015103019id_/http://www.cbc.ca/news/politics/24-sussex-drive-green-renovations-1.3295476",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "location:24_sussex_drive",
+        "type": "Location",
+        "properties": {
+          "name": "24 Sussex Drive",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "city",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "24 Sussex Drive",
+          "the prime minister's official residence",
+          "the official residence of the prime minister"
+        ]
+      },
+      {
+        "id": "organization:sierra_club_canada",
+        "type": "Organization",
+        "properties": {
+          "name": "Sierra Club Canada",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "nonprofit",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Sierra Club Canada",
+          "Sierra Club Canada Foundation",
+          "Sierra Club"
+        ]
+      },
+      {
+        "id": "person:diane_beckett",
+        "type": "Person",
+        "properties": {
+          "name": "Diane Beckett",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "interim executive director of the Sierra Club Canada Foundation"
+        },
+        "mentions": [
+          "Diane Beckett"
+        ]
+      },
+      {
+        "id": "organization:national_capital_commission",
+        "type": "Organization",
+        "properties": {
+          "name": "National Capital Commission",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "government_agency",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "National Capital Commission",
+          "NCC"
+        ]
+      },
+      {
+        "id": "technology:solar_collectors",
+        "type": "Technology",
+        "properties": {
+          "name": "solar collectors",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar collectors"
+        ]
+      },
+      {
+        "id": "technology:geothermal_system",
+        "type": "Technology",
+        "properties": {
+          "name": "geothermal system",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "geothermal",
+          "geothermal system"
+        ]
+      },
+      {
+        "id": "technology:micro_wind_turbine",
+        "type": "Technology",
+        "properties": {
+          "name": "micro wind turbine",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "micro wind turbine"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "organization:sierra_club_canada",
+        "target": "location:24_sussex_drive",
+        "relationship": "PREDICTS",
+        "article_id": "article_id",
+        "publication_date": "2015103019",
+        "year": 2015,
+        "source_name": "CBC News",
+        "confidence": 0.95,
+        "evidence": "Diane Beckett, interim executive director of the Sierra Club Canada Foundation, wants to turn 24 Sussex Drive into a net zero-energy house.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": "optimistic"
+      },
+      {
+        "source": "organization:national_capital_commission",
+        "target": "location:24_sussex_drive",
+        "relationship": "OPERATES",
+        "article_id": "article_id",
+        "publication_date": "2015103019",
+        "year": 2015,
+        "source_name": "CBC News",
+        "confidence": 0.95,
+        "evidence": "The National Capital Commission, which manages federal heritage buildings, is expected to renovate the house before the new prime minister and his family move in.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "technology:solar_collectors",
+        "target": "location:24_sussex_drive",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "2015103019",
+        "year": 2015,
+        "source_name": "CBC News",
+        "confidence": 0.95,
+        "evidence": "\"We could put in geothermal ... there could be solar collectors, there could be, maybe as a statement, a tiny micro wind turbine right by the cliff.\"",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "technology:geothermal_system",
+        "target": "location:24_sussex_drive",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "2015103019",
+        "year": 2015,
+        "source_name": "CBC News",
+        "confidence": 0.95,
+        "evidence": "\"We could put in geothermal ... there could be solar collectors, there could be, maybe as a statement, a tiny micro wind turbine right by the cliff.\"",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "technology:micro_wind_turbine",
+        "target": "location:24_sussex_drive",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "2015103019",
+        "year": 2015,
+        "source_name": "CBC News",
+        "confidence": 0.95,
+        "evidence": "\"We could put in geothermal ... there could be solar collectors, there could be, maybe as a statement, a tiny micro wind turbine right by the cliff.\"",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
   },
   {
     "article_id": "article_id",
@@ -70,30 +280,6 @@
         ]
       },
       {
-        "id": "person:elon_musk",
-        "type": "Person",
-        "properties": {
-          "name": "Elon Musk",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": "CEO"
-        },
-        "mentions": [
-          "Elon Musk",
-          "Musk"
-        ]
-      },
-      {
         "id": "technology:powerwall",
         "type": "Technology",
         "properties": {
@@ -113,8 +299,7 @@
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "Powerwall",
-          "the battery"
+          "Powerwall"
         ]
       },
       {
@@ -141,33 +326,10 @@
         ]
       },
       {
-        "id": "location:california",
-        "type": "Location",
+        "id": "person:elon_musk",
+        "type": "Person",
         "properties": {
-          "name": "California",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": "state",
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "California"
-        ]
-      },
-      {
-        "id": "project:california_public_utilities_commission_pilot_program",
-        "type": "Project",
-        "properties": {
-          "name": "California Public Utilities Commission pilot program",
+          "name": "Elon Musk",
           "ticker": null,
           "headquarters": null,
           "country": null,
@@ -183,14 +345,61 @@
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "pilot program run by the California Public Utilities Commission"
+          "Elon Musk",
+          "Musk"
         ]
       },
       {
-        "id": "company:amazoncom",
+        "id": "person:peter_rive",
+        "type": "Person",
+        "properties": {
+          "name": "Peter Rive",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Peter Rive"
+        ]
+      },
+      {
+        "id": "organization:california_public_utilities_commission",
+        "type": "Organization",
+        "properties": {
+          "name": "California Public Utilities Commission",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "government",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "California Public Utilities Commission"
+        ]
+      },
+      {
+        "id": "company:amazon",
         "type": "Company",
         "properties": {
-          "name": "Amazon.com",
+          "name": "Amazon",
           "ticker": null,
           "headquarters": null,
           "country": null,
@@ -254,42 +463,19 @@
         "mentions": [
           "Southern California Edison"
         ]
-      },
-      {
-        "id": "project:tesla_gigafactory",
-        "type": "Project",
-        "properties": {
-          "name": "Tesla Gigafactory",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": "Nevada",
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "giant factory in Nevada"
-        ]
       }
     ],
     "edges": [
       {
         "source": "company:tesla",
         "target": "technology:powerwall",
-        "relationship": "MANUFACTURES",
+        "relationship": "DEVELOPS",
         "article_id": "article_id",
         "publication_date": "2015050119",
         "year": 2015,
-        "source_name": "https://web.archive.org/web/2015050119id_/http://time.com/3842996/tesla-elon-musk-solar-panel-batteries/",
+        "source_name": "Time",
         "confidence": 0.95,
-        "evidence": "Although Tesla will make the battery called 'Powerwall,' it will be sold by a variety of other companies.",
+        "evidence": "Although Tesla will make the battery called \"Powerwall,\" it will be sold by a variety of other companies.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       },
@@ -300,7 +486,7 @@
         "article_id": "article_id",
         "publication_date": "2015050119",
         "year": 2015,
-        "source_name": "https://web.archive.org/web/2015050119id_/http://time.com/3842996/tesla-elon-musk-solar-panel-batteries/",
+        "source_name": "Time",
         "confidence": 0.95,
         "evidence": "The list of partners includes SolarCity, a solar installer founded by Musk's cousins, Lyndon and Peter Rive.",
         "temporal_qualifier": null,
@@ -308,306 +494,53 @@
       },
       {
         "source": "company:tesla",
-        "target": "project:tesla_gigafactory",
-        "relationship": "BUILDS",
+        "target": "company:amazon",
+        "relationship": "SUPPLIES",
         "article_id": "article_id",
         "publication_date": "2015050119",
         "year": 2015,
-        "source_name": "https://web.archive.org/web/2015050119id_/http://time.com/3842996/tesla-elon-musk-solar-panel-batteries/",
-        "confidence": 0.95,
-        "evidence": "Tesla is building a giant factory in Nevada that will begin churning out batteries in 2017.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      },
-      {
-        "source": "company:amazoncom",
-        "target": "technology:powerwall",
-        "relationship": "USES",
-        "article_id": "article_id",
-        "publication_date": "2015050119",
-        "year": 2015,
-        "source_name": "https://web.archive.org/web/2015050119id_/http://time.com/3842996/tesla-elon-musk-solar-panel-batteries/",
+        "source_name": "Time",
         "confidence": 0.95,
         "evidence": "Several businesses, including Amazon.com and Target, plan to use Tesla's battery storage system on a limited basis.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       },
       {
-        "source": "company:target",
-        "target": "technology:powerwall",
-        "relationship": "USES",
+        "source": "company:tesla",
+        "target": "company:target",
+        "relationship": "SUPPLIES",
         "article_id": "article_id",
         "publication_date": "2015050119",
         "year": 2015,
-        "source_name": "https://web.archive.org/web/2015050119id_/http://time.com/3842996/tesla-elon-musk-solar-panel-batteries/",
+        "source_name": "Time",
         "confidence": 0.95,
         "evidence": "Several businesses, including Amazon.com and Target, plan to use Tesla's battery storage system on a limited basis.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       },
       {
-        "source": "company:southern_california_edison",
-        "target": "technology:powerwall",
-        "relationship": "USES",
+        "source": "company:tesla",
+        "target": "company:southern_california_edison",
+        "relationship": "SUPPLIES",
         "article_id": "article_id",
         "publication_date": "2015050119",
         "year": 2015,
-        "source_name": "https://web.archive.org/web/2015050119id_/http://time.com/3842996/tesla-elon-musk-solar-panel-batteries/",
+        "source_name": "Time",
         "confidence": 0.95,
         "evidence": "Southern California Edison is already using Tesla batteries to store energy.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
-      }
-    ]
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "20150825131023",
-    "source": "http://web.archive.org/web/20150825131023id_/http://www.bostonglobe.com/business/2015/08/23/report-dismisses-need-for-extra-gas-pipelines/RiG4dFBqEVoyRpShu9e4wO/story.html",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "20160523072028",
-    "source": "http://web.archive.org/web/20160523072028id_/http://fortune.com:80/2016/05/16/shell-new-energies-climate-change/",
-    "unrelated": false,
-    "nodes": [
-      {
-        "id": "company:royal_dutch_shell",
-        "type": "Company",
-        "properties": {
-          "name": "Royal Dutch Shell",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "Royal Dutch Shell",
-          "Shell",
-          "the company"
-        ]
       },
       {
-        "id": "technology:solar_technologies",
-        "type": "Technology",
-        "properties": {
-          "name": "solar technologies",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "solar technologies",
-          "solar power"
-        ]
-      },
-      {
-        "id": "project:new_energies",
-        "type": "Project",
-        "properties": {
-          "name": "new energies",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "new energies"
-        ]
-      }
-    ],
-    "edges": [
-      {
-        "source": "company:royal_dutch_shell",
-        "target": "project:new_energies",
-        "relationship": "ANNOUNCES",
+        "source": "organization:california_public_utilities_commission",
+        "target": "technology:powerwall",
+        "relationship": "APPROVES",
         "article_id": "article_id",
-        "publication_date": "20160523072028",
-        "year": 2016,
-        "source_name": "http://web.archive.org/web/20160523072028id_/http://fortune.com:80/2016/05/16/shell-new-energies-climate-change/",
+        "publication_date": "2015050119",
+        "year": 2015,
+        "source_name": "Time",
         "confidence": 0.95,
-        "evidence": "The company told investors last week that it will combine its modest operations in green energy\u2014biofuels, wind and solar technologies\u2014into a business unit called \"new energies\" under its natural gas business.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      },
-      {
-        "source": "project:new_energies",
-        "target": "technology:solar_technologies",
-        "relationship": "USES",
-        "article_id": "article_id",
-        "publication_date": "20160523072028",
-        "year": 2016,
-        "source_name": "http://web.archive.org/web/20160523072028id_/http://fortune.com:80/2016/05/16/shell-new-energies-climate-change/",
-        "confidence": 0.95,
-        "evidence": "The company told investors last week that it will combine its modest operations in green energy\u2014biofuels, wind and solar technologies\u2014into a business unit called \"new energies\" under its natural gas business.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      }
-    ]
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2014103119",
-    "source": "https://web.archive.org/web/2014103119id_/http://www.theguardian.com/world/2014/oct/31/tacloban-a-year-after-typhoon-haiyan",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2008083119",
-    "source": "https://web.archive.org/web/2008083119id_/http://www.nytimes.com/2008/08/31/opinion/31friedman.html",
-    "unrelated": false,
-    "nodes": [
-      {
-        "id": "location:guangdong_province",
-        "type": "Location",
-        "properties": {
-          "name": "Guangdong Province",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": "region",
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "Guangdong Province"
-        ]
-      },
-      {
-        "id": "person:wang_yang",
-        "type": "Person",
-        "properties": {
-          "name": "Wang Yang",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": "Communist Party secretary"
-        },
-        "mentions": [
-          "Wang Yang",
-          "Party Secretary Wang Yang"
-        ]
-      },
-      {
-        "id": "technology:clean_energy_technology",
-        "type": "Technology",
-        "properties": {
-          "name": "clean energy technology",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "clean energy technology"
-        ]
-      },
-      {
-        "id": "location:guangzhou",
-        "type": "Location",
-        "properties": {
-          "name": "Guangzhou",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": "city",
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "Guangzhou"
-        ]
-      }
-    ],
-    "edges": [
-      {
-        "source": "person:wang_yang",
-        "target": "location:guangdong_province",
-        "relationship": "LOCATED_IN",
-        "article_id": "article_id",
-        "publication_date": "2008083119",
-        "year": 2008,
-        "source_name": "https://web.archive.org/web/2008083119id_/http://www.nytimes.com/2008/08/31/opinion/31friedman.html",
-        "confidence": 0.95,
-        "evidence": "I actually came here at the invitation of Wang Yang, the Communist Party secretary, i.e. the boss of Guangdong Province.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      },
-      {
-        "source": "technology:clean_energy_technology",
-        "target": "location:guangdong_province",
-        "relationship": "DEPLOYS",
-        "article_id": "article_id",
-        "publication_date": "2008083119",
-        "year": 2008,
-        "source_name": "https://web.archive.org/web/2008083119id_/http://www.nytimes.com/2008/08/31/opinion/31friedman.html",
-        "confidence": 0.95,
-        "evidence": "Party Secretary Wang Yang welcomes [Western] clean energy technology companies to come to Guangdong Province and use it as a laboratory to develop their products.",
+        "evidence": "He installed a Tesla battery late last year to pair with his solar panels as part of a pilot program run by the California Public Utilities Commission to test home battery performance.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       }
@@ -617,9 +550,72 @@
     "article_id": "article_id",
     "publication_date": "20160707095645",
     "source": "http://web.archive.org/web/20160707095645id_/http://www.nytimes.com:80/2006/03/05/magazine/how-to-build-a-lowpvc-reducedplastic-polarbearsensitive-house.html",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "project:grassi_house",
+        "type": "Project",
+        "properties": {
+          "name": "Grassi House",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": "10.9-kilowatt-hour",
+          "location": "midcoast Maine",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "house",
+          "Grassi House"
+        ]
+      },
+      {
+        "id": "technology:solar_panels",
+        "type": "Technology",
+        "properties": {
+          "name": "solar panels",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "photovoltaics",
+          "solar panels"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "project:grassi_house",
+        "target": "technology:solar_panels",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "20160707095645",
+        "year": 2016,
+        "source_name": "New York Times",
+        "confidence": 0.95,
+        "evidence": "photovoltaics, or solar panels, will supply some of their energy needs.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
   },
   {
     "article_id": "article_id",
@@ -647,15 +643,14 @@
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "Mosaic",
-          "Mosaic team"
+          "Mosaic"
         ]
       },
       {
-        "id": "project:joint_base_mcguisedixlakehurst_solar_project",
+        "id": "project:joint_base_mcguire_dix_lakehurst",
         "type": "Project",
         "properties": {
-          "name": "Joint Base McGuire-Dix-Lakehurst Solar Project",
+          "name": "Joint Base McGuire-Dix-Lakehurst",
           "ticker": null,
           "headquarters": null,
           "country": null,
@@ -671,14 +666,14 @@
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "12.3 megawatt project to build 547 installations on the military's Joint Base McGuire-Dix-Lakehurst, N.J."
+          "Joint Base McGuire-Dix-Lakehurst"
         ]
       },
       {
-        "id": "project:wildwood_convention_center_project",
+        "id": "project:wildwood_convention_center",
         "type": "Project",
         "properties": {
-          "name": "Wildwood Convention Center Project",
+          "name": "Wildwood Convention Center",
           "ticker": null,
           "headquarters": null,
           "country": null,
@@ -694,7 +689,7 @@
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "487 kilowatt project at the Wildwood Convention Center"
+          "Wildwood Convention Center"
         ]
       },
       {
@@ -714,7 +709,7 @@
           "location": null,
           "time_period": null,
           "location_type": null,
-          "role_in_solar_energy_space": "Director of Institutional Investments at Mosaic"
+          "role_in_solar_energy_space": "director of institutional investments at Mosaic"
         },
         "mentions": [
           "Michael Sidgmore"
@@ -737,7 +732,7 @@
           "location": null,
           "time_period": null,
           "location_type": null,
-          "role_in_solar_energy_space": "Manager of the family office for Lord Stanley Fink"
+          "role_in_solar_energy_space": "manages the family office for Lord Stanley Fink"
         },
         "mentions": [
           "Paul Simon"
@@ -747,12 +742,12 @@
     "edges": [
       {
         "source": "company:mosaic",
-        "target": "project:joint_base_mcguisedixlakehurst_solar_project",
+        "target": "project:joint_base_mcguire_dix_lakehurst",
         "relationship": "BUILDS",
         "article_id": "article_id",
         "publication_date": "20160804023357",
         "year": 2016,
-        "source_name": "http://web.archive.org/web/20160804023357id_/http://www.cnbc.com:80/2013/10/04/bond-strategy-sell-treasurys-buy-solar-like-buffett.html",
+        "source_name": "CNBC",
         "confidence": 0.95,
         "evidence": "Mosaic recently launched a 12.3 megawatt project to build 547 installations on the military's Joint Base McGuire-Dix-Lakehurst, N.J.",
         "temporal_qualifier": null,
@@ -760,12 +755,12 @@
       },
       {
         "source": "company:mosaic",
-        "target": "project:wildwood_convention_center_project",
+        "target": "project:wildwood_convention_center",
         "relationship": "BUILDS",
         "article_id": "article_id",
         "publication_date": "20160804023357",
         "year": 2016,
-        "source_name": "http://web.archive.org/web/20160804023357id_/http://www.cnbc.com:80/2013/10/04/bond-strategy-sell-treasurys-buy-solar-like-buffett.html",
+        "source_name": "CNBC",
         "confidence": 0.95,
         "evidence": "eclipsing the 487 kilowatt project at the Wildwood Convention Center that had been its largest.",
         "temporal_qualifier": null,
@@ -850,10 +845,10 @@
         ]
       },
       {
-        "id": "project:panel_bay",
+        "id": "project:sharp_sakai_complex",
         "type": "Project",
         "properties": {
-          "name": "Panel Bay",
+          "name": "Sharp Sakai Complex",
           "ticker": null,
           "headquarters": null,
           "country": null,
@@ -863,20 +858,21 @@
           "jurisdiction": null,
           "enactment_year": null,
           "capacity": null,
-          "location": "Osaka Bay",
+          "location": "Sakai",
           "time_period": null,
           "location_type": null,
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "Panel Bay"
+          "Sharp's complex",
+          "the complex"
         ]
       },
       {
-        "id": "location:osaka_bay",
+        "id": "location:sakai",
         "type": "Location",
         "properties": {
-          "name": "Osaka Bay",
+          "name": "Sakai",
           "ticker": null,
           "headquarters": null,
           "country": null,
@@ -888,11 +884,11 @@
           "capacity": null,
           "location": null,
           "time_period": null,
-          "location_type": "region",
+          "location_type": "city",
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "Osaka Bay"
+          "Sakai"
         ]
       }
     ],
@@ -924,15 +920,15 @@
         "prediction_sentiment": null
       },
       {
-        "source": "project:panel_bay",
-        "target": "location:osaka_bay",
+        "source": "project:sharp_sakai_complex",
+        "target": "location:sakai",
         "relationship": "LOCATED_IN",
         "article_id": "article_id",
         "publication_date": "2008121319",
         "year": 2008,
         "source_name": "https://web.archive.org/web/2008121319id_/http://www.nytimes.com/2008/12/12/business/worldbusiness/12yen.html",
         "confidence": 0.95,
-        "evidence": "Nowhere is that still formidable appetite for factory investment more apparent than along the shores of western Japan's Osaka Bay. This former rust-belt region has seen a boom in construction of large electronics and television plants, earning it the nickname Panel Bay.",
+        "evidence": "Nor has the army of busy construction cranes missed a beat at the largest of the Panel Bay projects, Sharp's complex on the site of an abandoned steel furnace.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       }
@@ -940,167 +936,7 @@
   },
   {
     "article_id": "article_id",
-    "publication_date": "2016102419",
-    "source": "https://web.archive.org/web/2016102419id_/http://www.wsj.com/articles/john-podesta-and-the-russians-1477262565",
-    "unrelated": false,
-    "nodes": [
-      {
-        "id": "person:john_podesta",
-        "type": "Person",
-        "properties": {
-          "name": "John Podesta",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "John Podesta",
-          "Mr. Podesta"
-        ]
-      },
-      {
-        "id": "company:joule_unlimited",
-        "type": "Company",
-        "properties": {
-          "name": "Joule Unlimited",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "Joule Unlimited",
-          "Joule"
-        ]
-      },
-      {
-        "id": "company:rusnano",
-        "type": "Company",
-        "properties": {
-          "name": "Rusnano",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "Rusnano",
-          "Russian government's investment fund"
-        ]
-      },
-      {
-        "id": "location:california",
-        "type": "Location",
-        "properties": {
-          "name": "California",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": "state",
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "California"
-        ]
-      }
-    ],
-    "edges": [
-      {
-        "source": "company:rusnano",
-        "target": "company:joule_unlimited",
-        "relationship": "INVESTS_IN",
-        "article_id": "article_id",
-        "publication_date": "2016102419",
-        "year": 2011,
-        "source_name": "https://web.archive.org/web/2016102419id_/http://www.wsj.com/articles/john-podesta-and-the-russians-1477262565",
-        "confidence": 0.95,
-        "evidence": "About eight months after Mr. Podesta joined Joule in 2011, an investment fund backed by the Russian government, Rusnano, announced plans to invest about $35 million in the company.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      },
-      {
-        "source": "company:rusnano",
-        "target": "company:joule_unlimited",
-        "relationship": "OWNS",
-        "article_id": "article_id",
-        "publication_date": "2016102419",
-        "year": 2011,
-        "source_name": "https://web.archive.org/web/2016102419id_/http://www.wsj.com/articles/john-podesta-and-the-russians-1477262565",
-        "confidence": 0.95,
-        "evidence": "Several months later, Joule announced that Rusnano Chairman Anatoly Chubais was joining its board of directors.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      },
-      {
-        "source": "person:john_podesta",
-        "target": "company:joule_unlimited",
-        "relationship": "ANNOUNCES",
-        "article_id": "article_id",
-        "publication_date": "2016102419",
-        "year": 2011,
-        "source_name": "https://web.archive.org/web/2016102419id_/http://www.wsj.com/articles/john-podesta-and-the-russians-1477262565",
-        "confidence": 0.95,
-        "evidence": "The story begins in 2011 when the solar energy startup Joule Unlimited announced that Mr. Podesta had been elected to its board of directors.",
-        "temporal_qualifier": null,
-        "prediction_sentiment": null
-      }
-    ]
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2010111119",
-    "source": "https://web.archive.org/web/2010111119id_/http://blogs.forbes.com/christopherhelman/2010/11/11/report-oil-companies-to-invest-380-billion-this-year/",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2015060119",
-    "source": "https://web.archive.org/web/2015060119id_/http://www.foxnews.com/leisure/2015/06/01/daimler-promises-to-launch-its-own-line-home-batteries-to-take-on-tesla/",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "20141127143503",
+    "publication_date": "2014-11-27",
     "source": "http://web.archive.org/web/20141127143503id_/http://fortune.com:80/2013/06/07/transcript-fortune-global-forum-panel-on-innovation/",
     "unrelated": false,
     "nodes": [
@@ -1126,6 +962,30 @@
         "mentions": [
           "GE",
           "General Electric"
+        ]
+      },
+      {
+        "id": "technology:solar_energy",
+        "type": "Technology",
+        "properties": {
+          "name": "Solar Energy",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar energy",
+          "solar"
         ]
       },
       {
@@ -1175,101 +1035,6 @@
         ]
       },
       {
-        "id": "technology:solar_energy",
-        "type": "Technology",
-        "properties": {
-          "name": "Solar Energy",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "solar energy",
-          "solar"
-        ]
-      },
-      {
-        "id": "person:jeffrey_immelt",
-        "type": "Person",
-        "properties": {
-          "name": "Jeffrey Immelt",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": "Chairman and CEO of GE"
-        },
-        "mentions": [
-          "Jeffrey Immelt",
-          "Jeff Immelt"
-        ]
-      },
-      {
-        "id": "person:ellen_kullman",
-        "type": "Person",
-        "properties": {
-          "name": "Ellen Kullman",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": "Chair and CEO of DuPont"
-        },
-        "mentions": [
-          "Ellen Kullman"
-        ]
-      },
-      {
-        "id": "person:fu_chengyu",
-        "type": "Person",
-        "properties": {
-          "name": "Fu Chengyu",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": null,
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": "Chairman of Sinopec"
-        },
-        "mentions": [
-          "Fu Chengyu",
-          "Chairman Fu"
-        ]
-      },
-      {
         "id": "location:china",
         "type": "Location",
         "properties": {
@@ -1297,24 +1062,24 @@
       {
         "source": "company:ge",
         "target": "technology:solar_energy",
-        "relationship": "INVESTS_IN",
+        "relationship": "DEVELOPS",
         "article_id": "article_id",
-        "publication_date": "20141127143503",
+        "publication_date": "2014-11-27",
         "year": 2014,
-        "source_name": "http://web.archive.org/web/20141127143503id_/http://fortune.com:80/2013/06/07/transcript-fortune-global-forum-panel-on-innovation/",
-        "confidence": 0.9,
-        "evidence": "We've had an MOU with the NDRC for a decade on clean energy investing.",
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "We're in solar. We're in wind. We're in coal. We're in gas. And we're driving technology around all those.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       },
       {
         "source": "company:ge",
         "target": "technology:solar_energy",
-        "relationship": "DEVELOPS",
+        "relationship": "DEPLOYS",
         "article_id": "article_id",
-        "publication_date": "20141127143503",
+        "publication_date": "2014-11-27",
         "year": 2014,
-        "source_name": "http://web.archive.org/web/20141127143503id_/http://fortune.com:80/2013/06/07/transcript-fortune-global-forum-panel-on-innovation/",
+        "source_name": "Fortune",
         "confidence": 0.95,
         "evidence": "We're in solar. We're in wind. We're in coal. We're in gas. And we're driving technology around all those.",
         "temporal_qualifier": null,
@@ -1323,26 +1088,39 @@
       {
         "source": "company:dupont",
         "target": "technology:solar_energy",
-        "relationship": "SUPPLIES",
+        "relationship": "DEVELOPS",
         "article_id": "article_id",
-        "publication_date": "20141127143503",
+        "publication_date": "2014-11-27",
         "year": 2014,
-        "source_name": "http://web.archive.org/web/20141127143503id_/http://fortune.com:80/2013/06/07/transcript-fortune-global-forum-panel-on-innovation/",
-        "confidence": 0.9,
-        "evidence": "Ellen makes money, people that sell inverters make money.",
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "ELLEN KULLMAN: The fact that solar in the last decade has made huge gains in efficiencies, and although Jeff is right, module manufacturers is over capacity, don't make a lot of money.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       },
       {
         "source": "company:sinopec",
-        "target": "location:china",
-        "relationship": "LOCATED_IN",
+        "target": "technology:solar_energy",
+        "relationship": "DEPLOYS",
         "article_id": "article_id",
-        "publication_date": "20141127143503",
+        "publication_date": "2014-11-27",
         "year": 2014,
-        "source_name": "http://web.archive.org/web/20141127143503id_/http://fortune.com:80/2013/06/07/transcript-fortune-global-forum-panel-on-innovation/",
+        "source_name": "Fortune",
         "confidence": 0.95,
-        "evidence": "For a Chinese enterprise like Sinopec, we are in the energy and chemicals industry.",
+        "evidence": "And electricity generated from different sources, from water, from solar, and from coal is not integrated into one big grid.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "location:china",
+        "target": "technology:solar_energy",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "2014-11-27",
+        "year": 2014,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "And electricity generated from different sources, from water, from solar, and from coal is not integrated into one big grid.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       }
@@ -1350,74 +1128,480 @@
   },
   {
     "article_id": "article_id",
-    "publication_date": "2016111019",
-    "source": "https://web.archive.org/web/2016111019id_/http://www.nytimes.com/2016/11/11/us/politics/donald-trump-climate-change.html",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
     "publication_date": "20160610225723",
     "source": "http://web.archive.org/web/20160610225723id_/http://fortune.com:80/2016/04/05/apple-campus-2-drone/",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:apple",
+        "type": "Company",
+        "properties": {
+          "name": "Apple",
+          "ticker": "AAPL",
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Apple",
+          "AAPL",
+          "iPhone maker"
+        ]
+      },
+      {
+        "id": "project:apple_campus_2",
+        "type": "Project",
+        "properties": {
+          "name": "Apple Campus 2",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "Cupertino",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Apple Campus 2",
+          "spaceship",
+          "new campus"
+        ]
+      },
+      {
+        "id": "technology:solar_panels",
+        "type": "Technology",
+        "properties": {
+          "name": "solar panels",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar panels"
+        ]
+      },
+      {
+        "id": "location:cupertino",
+        "type": "Location",
+        "properties": {
+          "name": "Cupertino",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "city",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Cupertino"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:apple",
+        "target": "project:apple_campus_2",
+        "relationship": "BUILDS",
+        "article_id": "article_id",
+        "publication_date": "20160610225723",
+        "year": 2016,
+        "source_name": "http://web.archive.org/web/20160610225723id_/http://fortune.com:80/2016/04/05/apple-campus-2-drone/",
+        "confidence": 0.95,
+        "evidence": "Indeed, the spaceship, or Apple Campus 2 as it will be known, will be one of the most energy-friendly buildings in Silicon Valley and the world upon completion.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "project:apple_campus_2",
+        "target": "technology:solar_panels",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "20160610225723",
+        "year": 2016,
+        "source_name": "http://web.archive.org/web/20160610225723id_/http://fortune.com:80/2016/04/05/apple-campus-2-drone/",
+        "confidence": 0.95,
+        "evidence": "The facility, which will have 2.8 million square feet of office space to house 12,000 employees, will feature 700,000 square feet of solar panels.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "project:apple_campus_2",
+        "target": "location:cupertino",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "20160610225723",
+        "year": 2016,
+        "source_name": "http://web.archive.org/web/20160610225723id_/http://fortune.com:80/2016/04/05/apple-campus-2-drone/",
+        "confidence": 0.95,
+        "evidence": "Whenever Apple makes an announcement next year at its headquarters, it is expected to take place at this new campus in Cupertino.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
   },
   {
     "article_id": "article_id",
     "publication_date": "20160526084738",
     "source": "http://web.archive.org/web/20160526084738id_/http://fortune.com:80/2016/05/23/a-battery-made-from-metal-and-air-is-electrifying-the-developing-world/",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2010062019",
-    "source": "https://web.archive.org/web/2010062019id_/http://www.time.com/time/magazine/article/0,9171,1997438,00.html",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2015122619",
-    "source": "https://web.archive.org/web/2015122619id_/http://www.theguardian.com/environment/2015/dec/25/cecil-the-lion-zimbabwe-conservation-johnny-rodrigues",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "20160604190132",
-    "source": "http://web.archive.org/web/20160604190132id_/http://www.theguardian.com:80/australia-news/2016/apr/30/al-gore-attacks-csiros-climate-cuts-and-praises-labors-proposals",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:fluidic_energy",
+        "type": "Company",
+        "properties": {
+          "name": "Fluidic Energy",
+          "ticker": null,
+          "headquarters": "Scottsdale, Arizona",
+          "country": "United States of America (USA)",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Fluidic Energy"
+        ]
+      },
+      {
+        "id": "technology:zinc_air_battery",
+        "type": "Technology",
+        "properties": {
+          "name": "Zinc-air battery",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "zinc-air battery",
+          "metal air battery"
+        ]
+      },
+      {
+        "id": "company:caterpillar",
+        "type": "Company",
+        "properties": {
+          "name": "Caterpillar",
+          "ticker": "CAT",
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Caterpillar"
+        ]
+      },
+      {
+        "id": "governmentagency:department_of_energy",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "Department of Energy",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States of America (USA)",
+          "government_level": "federal",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Department of Energy"
+        ]
+      },
+      {
+        "id": "project:madagascar_rural_electrification",
+        "type": "Project",
+        "properties": {
+          "name": "Madagascar Rural Electrification",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "Madagascar",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "project to bring power to 400,000 people in rural areas of Madagascar"
+        ]
+      },
+      {
+        "id": "governmentagency:pln",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "PLN",
+          "ticker": null,
+          "headquarters": null,
+          "country": "Indonesia",
+          "government_level": "state",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "PLN",
+          "Indonesia's state-owned utility"
+        ]
+      },
+      {
+        "id": "project:indonesia_off_grid_microgrid",
+        "type": "Project",
+        "properties": {
+          "name": "Indonesia Off-Grid Microgrid",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "Indonesia",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "project to bring power to 500 remote villages in the country"
+        ]
+      },
+      {
+        "id": "technology:solar_panels",
+        "type": "Technology",
+        "properties": {
+          "name": "Solar panels",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar panels"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:fluidic_energy",
+        "target": "technology:zinc_air_battery",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "Fluidic Energy makes a specific type of metal air battery called a zinc-air battery.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:fluidic_energy",
+        "target": "company:caterpillar",
+        "relationship": "PARTNERS_WITH",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "Last year, the company scored an important distribution partner (and investor) in construction and mining gear giant Caterpillar.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:department_of_energy",
+        "target": "company:fluidic_energy",
+        "relationship": "FUNDS",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2009,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "In 2009, the Department of Energy launched its ARPA-E program, which gives small grants ($1 million or so) to early stage, high-risk startups looking to achieve 'moonshots' in energy.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:fluidic_energy",
+        "target": "project:madagascar_rural_electrification",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "A few weeks ago, the company announced that its batteries will be used in a project to bring power to 400,000 people in rural areas of Madagascar.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:fluidic_energy",
+        "target": "project:indonesia_off_grid_microgrid",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "Last year, Indonesia's state-owned utility, called PLN, announced that it will use Fluidic Energy batteries to bring power to 500 remote villages in the country.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "project:indonesia_off_grid_microgrid",
+        "target": "governmentagency:pln",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "Last year, Indonesia's state-owned utility, called PLN, announced that it will use Fluidic Energy batteries to bring power to 500 remote villages in the country.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "project:madagascar_rural_electrification",
+        "target": "location:madagascar",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "A few weeks ago, the company announced that its batteries will be used in a project to bring power to 400,000 people in rural areas of Madagascar.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:fluidic_energy",
+        "target": "technology:solar_panels",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "20160526084738",
+        "year": 2016,
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "Beyond telecom, Fluidic Energy is selling its batteries to utilities and governments in developing countries to be paired with clean energy, like solar panels.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
   },
   {
     "article_id": "article_id",
     "publication_date": "2012032519",
     "source": "https://web.archive.org/web/2012032519id_/http://content.usatoday.com/topics/topic/Places,+Geography/Towns,+Cities,+Counties/Santa+Clara",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2016011519",
-    "source": "https://web.archive.org/web/2016011519id_/http://www.theguardian.com/environment/2016/jan/15/obama-administration-halts-new-coal-mining-leases-on-public-land",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
-  },
-  {
-    "article_id": "article_id",
-    "publication_date": "2010042219",
-    "source": "https://web.archive.org/web/2010042219id_/http://blogs.reuters.com/environment/2010/04/19/betting-on-climate-change/",
-    "unrelated": true,
-    "nodes": [],
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:first_solar",
+        "type": "Company",
+        "properties": {
+          "name": "First Solar Inc.",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "First Solar Inc.",
+          "First Solar"
+        ]
+      }
+    ],
     "edges": []
   },
   {
@@ -1451,34 +1635,10 @@
         ]
       },
       {
-        "id": "project:solar_installations",
-        "type": "Project",
-        "properties": {
-          "name": "Solar Installations",
-          "ticker": null,
-          "headquarters": null,
-          "country": null,
-          "government_level": null,
-          "organization_type": null,
-          "policy_type": null,
-          "jurisdiction": null,
-          "enactment_year": null,
-          "capacity": "770 megawatts",
-          "location": null,
-          "time_period": null,
-          "location_type": null,
-          "role_in_solar_energy_space": null
-        },
-        "mentions": [
-          "solar installations",
-          "solar capacity"
-        ]
-      },
-      {
         "id": "governmentagency:chilean_government",
         "type": "GovernmentAgency",
         "properties": {
-          "name": "Chilean Government",
+          "name": "Chilean government",
           "ticker": null,
           "headquarters": null,
           "country": "Chile",
@@ -1494,35 +1654,58 @@
           "role_in_solar_energy_space": null
         },
         "mentions": [
-          "Chilean government",
-          "the government"
+          "Chilean government"
+        ]
+      },
+      {
+        "id": "project:solar_installations_north_chile",
+        "type": "Project",
+        "properties": {
+          "name": "solar installations in the north of Chile",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "north of Chile",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar installations",
+          "solar production"
         ]
       }
     ],
     "edges": [
       {
-        "source": "project:solar_installations",
-        "target": "location:chile",
-        "relationship": "LOCATED_IN",
+        "source": "governmentagency:chilean_government",
+        "target": "project:solar_installations_north_chile",
+        "relationship": "BUILDS",
         "article_id": "article_id",
         "publication_date": "20160607005841",
         "year": 2016,
-        "source_name": "http://web.archive.org/web/20160607005841id_/http://fortune.com:80/2016/06/04/in-chile-solar-power-outgrows-the-grid-so-theyre-giving-it-away/",
-        "confidence": 0.95,
-        "evidence": "Solar production in the country has expanded rapidly in recent years.",
+        "source_name": "Fortune",
+        "confidence": 0.9,
+        "evidence": "The Chilean government is working to connect the two regions so the excess energy can move, as well as to improve connections within grid zones.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       },
       {
-        "source": "governmentagency:chilean_government",
-        "target": "project:solar_installations",
-        "relationship": "REGULATES",
+        "source": "location:chile",
+        "target": "project:solar_installations_north_chile",
+        "relationship": "LOCATED_IN",
         "article_id": "article_id",
         "publication_date": "20160607005841",
         "year": 2016,
-        "source_name": "http://web.archive.org/web/20160607005841id_/http://fortune.com:80/2016/06/04/in-chile-solar-power-outgrows-the-grid-so-theyre-giving-it-away/",
-        "confidence": 0.9,
-        "evidence": "The Chilean government is working to connect the two regions so the excess energy can move, as well as to improve connections within grid zones.",
+        "source_name": "Fortune",
+        "confidence": 0.95,
+        "evidence": "The highest concentration of solar installations was built in the north, where the country's copper mines were expected to drive energy demand, but are now facing a slowdown.",
         "temporal_qualifier": null,
         "prediction_sentiment": null
       }
@@ -1530,26 +1713,3097 @@
   },
   {
     "article_id": "article_id",
-    "publication_date": "2011042019",
-    "source": "https://web.archive.org/web/2011042019id_/http://content.usatoday.com/topics/topic/KB+Home",
+    "publication_date": "2015-03-31",
+    "source": "CNBC",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:tesla",
+        "type": "Company",
+        "properties": {
+          "name": "Tesla",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Tesla"
+        ]
+      },
+      {
+        "id": "company:solarcity",
+        "type": "Company",
+        "properties": {
+          "name": "SolarCity",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "SolarCity"
+        ]
+      },
+      {
+        "id": "technology:lithium_ion_batteries",
+        "type": "Technology",
+        "properties": {
+          "name": "lithium-ion batteries",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "lithium-ion batteries"
+        ]
+      },
+      {
+        "id": "technology:liquid_metal_batteries",
+        "type": "Technology",
+        "properties": {
+          "name": "liquid metal batteries",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "liquid metal batteries"
+        ]
+      },
+      {
+        "id": "company:sunedison",
+        "type": "Company",
+        "properties": {
+          "name": "SunEdison",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "SunEdison"
+        ]
+      },
+      {
+        "id": "company:sunpower",
+        "type": "Company",
+        "properties": {
+          "name": "SunPower",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "SunPower"
+        ]
+      },
+      {
+        "id": "company:enphase_energy",
+        "type": "Company",
+        "properties": {
+          "name": "Enphase Energy",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Enphase Energy"
+        ]
+      },
+      {
+        "id": "company:ideal_power",
+        "type": "Company",
+        "properties": {
+          "name": "Ideal Power",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Ideal Power"
+        ]
+      },
+      {
+        "id": "company:primus_power",
+        "type": "Company",
+        "properties": {
+          "name": "Primus Power",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Primus Power"
+        ]
+      },
+      {
+        "id": "company:enervault",
+        "type": "Company",
+        "properties": {
+          "name": "EnerVault",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "EnerVault"
+        ]
+      },
+      {
+        "id": "company:ambri",
+        "type": "Company",
+        "properties": {
+          "name": "Ambri",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Ambri"
+        ]
+      },
+      {
+        "id": "person:donald_sadoway",
+        "type": "Person",
+        "properties": {
+          "name": "Donald Sadoway",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "MIT professor"
+        },
+        "mentions": [
+          "Donald Sadoway"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:tesla",
+        "target": "technology:lithium_ion_batteries",
+        "relationship": "SUPPLIES",
+        "article_id": "article_id",
+        "publication_date": "2015-03-31",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "it already supplies lithium-ion batteries (which it also uses in its electric cars) to sister company SolarCity (also founded by Musk).",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:tesla",
+        "target": "company:solarcity",
+        "relationship": "SUPPLIES",
+        "article_id": "article_id",
+        "publication_date": "2015-03-31",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "it already supplies lithium-ion batteries (which it also uses in its electric cars) to sister company SolarCity (also founded by Musk).",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:sunedison",
+        "target": "company:solar_grid_storage",
+        "relationship": "ACQUIRES",
+        "article_id": "article_id",
+        "publication_date": "2015-03-31",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Earlier this month, SunEdison announced that it purchased Solar Grid Storage.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:sunpower",
+        "target": "company:sunverge_energy",
+        "relationship": "PARTNERS_WITH",
+        "article_id": "article_id",
+        "publication_date": "2015-03-31",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "In December, SunPower unveiled a partnership with privately held Sunverge Energy for both residential customers and utilities.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2015-03-06",
+    "source": "Boston Globe",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:cloudsolar",
+        "type": "Company",
+        "properties": {
+          "name": "CloudSolar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "CloudSolar"
+        ]
+      },
+      {
+        "id": "person:michael_sun",
+        "type": "Person",
+        "properties": {
+          "name": "Michael Sun",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "Co-founder of CloudSolar"
+        },
+        "mentions": [
+          "Michael Sun"
+        ]
+      },
+      {
+        "id": "person:cory_absi",
+        "type": "Person",
+        "properties": {
+          "name": "Cory Absi",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "Co-founder of CloudSolar"
+        },
+        "mentions": [
+          "Cory Absi"
+        ]
+      },
+      {
+        "id": "person:xiaohang_li",
+        "type": "Person",
+        "properties": {
+          "name": "Xiaohang Li",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "Co-founder of CloudSolar"
+        },
+        "mentions": [
+          "Xiaohang Li"
+        ]
+      },
+      {
+        "id": "project:cloudsolar_solar_farm",
+        "type": "Project",
+        "properties": {
+          "name": "CloudSolar Solar Farm",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "New England",
+          "time_period": "next year",
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar farm"
+        ]
+      },
+      {
+        "id": "location:new_england",
+        "type": "Location",
+        "properties": {
+          "name": "New England",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "region",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "New England"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:cloudsolar",
+        "target": "project:cloudsolar_solar_farm",
+        "relationship": "BUILDS",
+        "article_id": "article_id",
+        "publication_date": "2015-03-06",
+        "year": 2015,
+        "source_name": "Boston Globe",
+        "confidence": 0.95,
+        "evidence": "He and the cofounders of a Boston startup called CloudSolar are offering customers panels to be installed not on their own homes but rather on a solar farm the company plans to open somewhere in New England next year.",
+        "temporal_qualifier": "next year",
+        "prediction_sentiment": null
+      },
+      {
+        "source": "project:cloudsolar_solar_farm",
+        "target": "location:new_england",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "2015-03-06",
+        "year": 2015,
+        "source_name": "Boston Globe",
+        "confidence": 0.95,
+        "evidence": "He and the cofounders of a Boston startup called CloudSolar are offering customers panels to be installed not on their own homes but rather on a solar farm the company plans to open somewhere in New England next year.",
+        "temporal_qualifier": "next year",
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2015-02-26",
+    "source": "CNBC",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:impax_asset_management",
+        "type": "Company",
+        "properties": {
+          "name": "Impax Asset Management",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Impax Asset Management",
+          "Impax"
+        ]
+      },
+      {
+        "id": "company:sunedison",
+        "type": "Company",
+        "properties": {
+          "name": "SunEdison",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "SunEdison"
+        ]
+      },
+      {
+        "id": "company:first_solar",
+        "type": "Company",
+        "properties": {
+          "name": "First Solar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "First Solar"
+        ]
+      },
+      {
+        "id": "company:trina_solar",
+        "type": "Company",
+        "properties": {
+          "name": "Trina Solar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Trina Solar"
+        ]
+      },
+      {
+        "id": "technology:distributed_solar",
+        "type": "Technology",
+        "properties": {
+          "name": "distributed solar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "distributed solar"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:impax_asset_management",
+        "target": "company:sunedison",
+        "relationship": "INVESTS_IN",
+        "article_id": "article_id",
+        "publication_date": "2015-02-26",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Impax also used the oil dip to add to its solar holdings, which sold off as the market anticipated higher use of oil as an energy source given its suddenly much-lower price. The stocks of large solar companies such as SunEdison and First Solar fell by double digits over the second half of 2014.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:impax_asset_management",
+        "target": "company:first_solar",
+        "relationship": "INVESTS_IN",
+        "article_id": "article_id",
+        "publication_date": "2015-02-26",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Impax also used the oil dip to add to its solar holdings, which sold off as the market anticipated higher use of oil as an energy source given its suddenly much-lower price. The stocks of large solar companies such as SunEdison and First Solar fell by double digits over the second half of 2014.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:impax_asset_management",
+        "target": "company:trina_solar",
+        "relationship": "INVESTS_IN",
+        "article_id": "article_id",
+        "publication_date": "2015-02-26",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "But stocks recently held by Impax's public mutual funds were American Water Works and Trina Solar.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "20150404235328",
+    "source": "http://web.archive.org/web/20150404235328id_/http://www.bostonglobe.com:80/business/2013/08/14/past-hult-prize-winners/X9yiWKCjY9TISohhhvukKO/story.html",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "organization:solaraid",
+        "type": "Organization",
+        "properties": {
+          "name": "SolarAid",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "charity",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "SolarAid"
+        ]
+      },
+      {
+        "id": "technology:solar_panels",
+        "type": "Technology",
+        "properties": {
+          "name": "solar panels",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar panels"
+        ]
+      },
+      {
+        "id": "technology:solar_lamps",
+        "type": "Technology",
+        "properties": {
+          "name": "solar lamps",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar lamps"
+        ]
+      },
+      {
+        "id": "location:africa",
+        "type": "Location",
+        "properties": {
+          "name": "Africa",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "region",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Africa"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "organization:solaraid",
+        "target": "technology:solar_panels",
+        "relationship": "MANUFACTURES",
+        "article_id": "article_id",
+        "publication_date": "20150404235328",
+        "year": 2015,
+        "source_name": "Boston Globe",
+        "confidence": 0.95,
+        "evidence": "The team created SolarAid. now the largest solar panel producer in Africa.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "organization:solaraid",
+        "target": "technology:solar_lamps",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "20150404235328",
+        "year": 2015,
+        "source_name": "Boston Globe",
+        "confidence": 0.95,
+        "evidence": "The charity's aim is to eliminate the use of the fuel-powered lamps on the continent by 2020 and replace them with high-tech solar lamps that would be cheaper over the long-run.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "organization:solaraid",
+        "target": "location:africa",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "20150404235328",
+        "year": 2015,
+        "source_name": "Boston Globe",
+        "confidence": 0.95,
+        "evidence": "The team created SolarAid. now the largest solar panel producer in Africa.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2014052019",
+    "source": "https://web.archive.org/web/2014052019id_/http://www.nytimes.com/2014/05/21/business/international/firms-in-united-states-see-risk-in-challenges-to-beijing.html",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:solarworld",
+        "type": "Company",
+        "properties": {
+          "name": "SolarWorld",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States (subsidiary of German company) ",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "SolarWorld"
+        ]
+      },
+      {
+        "id": "governmentagency:commerce_department",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "Commerce Department",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States",
+          "government_level": "federal",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Commerce Department"
+        ]
+      },
+      {
+        "id": "policy:tariffs_on_chinese_imports",
+        "type": "Policy",
+        "properties": {
+          "name": "Tariffs on Chinese Imports",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": "tariff",
+          "jurisdiction": "United States",
+          "enactment_year": 2012,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "tariffs on Chinese imports"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:solarworld",
+        "target": "governmentagency:commerce_department",
+        "relationship": "ANNOUNCES",
+        "article_id": "article_id",
+        "publication_date": "2014052019",
+        "year": 2014,
+        "source_name": "New York Times",
+        "confidence": 0.95,
+        "evidence": "The Oregon subsidiary of SolarWorld, a German company, hired trade lawyers in 2011 to ask the Commerce Department to investigate whether Chinese companies were selling solar panels below cost, or dumping, and with subsidies from the Chinese government.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:commerce_department",
+        "target": "policy:tariffs_on_chinese_imports",
+        "relationship": "APPROVES",
+        "article_id": "article_id",
+        "publication_date": "2014052019",
+        "year": 2014,
+        "source_name": "New York Times",
+        "confidence": 0.95,
+        "evidence": "A Commerce Department investigation found evidence of dumping and subsidies, and the agency began imposing steep tariffs on Chinese imports in May 2012.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2013021419",
+    "source": "https://web.archive.org/web/2013021419id_/http://www.bbc.com/travel/slideshow/20130208-worlds-coolest-futuristic-buildings",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "project:gardens_by_the_bay",
+        "type": "Project",
+        "properties": {
+          "name": "Gardens by the Bay",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "Singapore",
+          "time_period": "2011-present",
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Gardens by the Bay"
+        ]
+      },
+      {
+        "id": "technology:photovoltaic_cells",
+        "type": "Technology",
+        "properties": {
+          "name": "photovoltaic cells",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "photovoltaic cells"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "project:gardens_by_the_bay",
+        "target": "technology:photovoltaic_cells",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "2013021419",
+        "year": 2013,
+        "source_name": "BBC",
+        "confidence": 0.95,
+        "evidence": "Opened in 2011, its highlights include the Supertree Grove (pictured), a forest of 16-storey-high man-made structures covered with living plants and hosting photovoltaic cells that harvest solar energy.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2011-09-20",
+    "source": "Fox News",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:solyndra",
+        "type": "Company",
+        "properties": {
+          "name": "Solyndra",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Solyndra"
+        ]
+      },
+      {
+        "id": "governmentagency:federal_government",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "Federal Government",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States",
+          "government_level": "federal",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "federal government"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "governmentagency:federal_government",
+        "target": "company:solyndra",
+        "relationship": "FUNDS",
+        "article_id": "article_id",
+        "publication_date": "2011-09-20",
+        "year": 2011,
+        "source_name": "Fox News",
+        "confidence": 0.95,
+        "evidence": "For instance, at Solyndra, the scandal plagued solar energy company that got $535 million from the federal government, no long term jobs have been created.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "20160704075712",
+    "source": "http://web.archive.org/web/20160704075712id_/http://time.com:80/3706444/solar-energy-liquid-fuel/",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "organization:harvard",
+        "type": "Organization",
+        "properties": {
+          "name": "Harvard",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "university",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Harvard"
+        ]
+      },
+      {
+        "id": "technology:photovoltaic_cells",
+        "type": "Technology",
+        "properties": {
+          "name": "photovoltaic cells",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "photovoltaic cells"
+        ]
+      },
+      {
+        "id": "technology:liquid_fuel_conversion",
+        "type": "Technology",
+        "properties": {
+          "name": "liquid fuel conversion",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "convert solar energy into liquid fuel",
+          "liquid fuel"
+        ]
+      },
+      {
+        "id": "person:pamela_silver",
+        "type": "Person",
+        "properties": {
+          "name": "Pamela Silver",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "researcher"
+        },
+        "mentions": [
+          "Pamela Silver"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "organization:harvard",
+        "target": "technology:liquid_fuel_conversion",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "20160704075712",
+        "year": 2016,
+        "source_name": "http://web.archive.org/web/20160704075712id_/http://time.com:80/3706444/solar-energy-liquid-fuel/",
+        "confidence": 0.95,
+        "evidence": "Researchers at Harvard have discovered how to convert solar energy into liquid fuel, potentially accelerating our switch to the alternative-energy source.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "technology:photovoltaic_cells",
+        "target": "technology:liquid_fuel_conversion",
+        "relationship": "USES",
+        "article_id": "article_id",
+        "publication_date": "20160704075712",
+        "year": 2016,
+        "source_name": "http://web.archive.org/web/20160704075712id_/http://time.com:80/3706444/solar-energy-liquid-fuel/",
+        "confidence": 0.95,
+        "evidence": "At the moment, solar energy can be converted into hydrogen by using photovoltaic cells.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "20150927110712",
+    "source": "http://web.archive.org/web/20150927110712id_/http://www.cnbc.com/2015/05/28/using-smart-tech-to-slash-energy-bills.html",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:sunverge",
+        "type": "Company",
+        "properties": {
+          "name": "Sunverge",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Sunverge"
+        ]
+      },
+      {
+        "id": "technology:virtual_power_plant",
+        "type": "Technology",
+        "properties": {
+          "name": "virtual power plant",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "virtual power plant"
+        ]
+      },
+      {
+        "id": "technology:home_energy_management_system",
+        "type": "Technology",
+        "properties": {
+          "name": "home energy management system",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "home energy management system"
+        ]
+      },
+      {
+        "id": "person:kenneth_munson",
+        "type": "Person",
+        "properties": {
+          "name": "Kenneth Munson",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "CEO of Sunverge"
+        },
+        "mentions": [
+          "Kenneth Munson"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:sunverge",
+        "target": "technology:virtual_power_plant",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "20150927110712",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Another key component of Sunverge's system is the creation of what it calls a, \"virtual power plant.\" The more units that are deployed across sites, the bigger the plant gets.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:sunverge",
+        "target": "technology:home_energy_management_system",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "20150927110712",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "As importantly, [it] can reach inside the home and manage smart appliances, plug load devices, smart thermostats and whole home automation technologies like a home energy management system,\" he added.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2013010319",
+    "source": "https://web.archive.org/web/2013010319id_/http://video.forbes.com/fvn/inidaily/markets-desk-fiscal-cliff-debt-ceiling/",
     "unrelated": true,
     "nodes": [],
     "edges": []
   },
   {
     "article_id": "article_id",
-    "publication_date": "2009101619",
-    "source": "https://web.archive.org/web/2009101619id_/http://www.forbes.com/2009/10/14/azz-steel-galvanizing-entrepreneurs-management-200-best-small-companies-09.html",
+    "publication_date": "2012092419",
+    "source": "https://web.archive.org/web/2012092419id_/http://abcnews.go.com/blogs/technology/2012/09/changing-cities-where-are-the-solar-panels-mr-president/",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "person:jimmy_carter",
+        "type": "Person",
+        "properties": {
+          "name": "Jimmy Carter",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "President Jimmy Carter",
+          "Carter"
+        ]
+      },
+      {
+        "id": "person:barack_obama",
+        "type": "Person",
+        "properties": {
+          "name": "Barack Obama",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "President Obama",
+          "Obama"
+        ]
+      },
+      {
+        "id": "governmentagency:department_of_energy",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "Department of Energy",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States",
+          "government_level": "federal",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Department of Energy",
+          "DOE"
+        ]
+      },
+      {
+        "id": "person:bill_mckibben",
+        "type": "Person",
+        "properties": {
+          "name": "Bill McKibben",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "author and climate activist"
+        },
+        "mentions": [
+          "Bill McKibben",
+          "McKibben"
+        ]
+      },
+      {
+        "id": "location:white_house",
+        "type": "Location",
+        "properties": {
+          "name": "White House",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "city",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "White House"
+        ]
+      },
+      {
+        "id": "location:united_states",
+        "type": "Location",
+        "properties": {
+          "name": "United States",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "country",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "United States",
+          "America"
+        ]
+      },
+      {
+        "id": "location:china",
+        "type": "Location",
+        "properties": {
+          "name": "China",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "country",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "China"
+        ]
+      },
+      {
+        "id": "project:white_house_solar_panels",
+        "type": "Project",
+        "properties": {
+          "name": "White House Solar Panels",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": "19,700 kilowatt hours",
+          "location": "White House",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar panels",
+          "panels"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "person:jimmy_carter",
+        "target": "project:white_house_solar_panels",
+        "relationship": "BUILDS",
+        "article_id": "article_id",
+        "publication_date": "2012092419",
+        "year": 1979,
+        "source_name": "ABC News",
+        "confidence": 0.95,
+        "evidence": "On June 20, 1979 President Jimmy Carter installed 32 solar panels, used to heat water, on the White House roof.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "person:barack_obama",
+        "target": "project:white_house_solar_panels",
+        "relationship": "BUILDS",
+        "article_id": "article_id",
+        "publication_date": "2012092419",
+        "year": 2010,
+        "source_name": "ABC News",
+        "confidence": 0.95,
+        "evidence": "However, in 2010, President Obama announced he was bringing solar panels back to the White House roof, which the administration said were slated for installation by the spring of 2011.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:department_of_energy",
+        "target": "project:white_house_solar_panels",
+        "relationship": "FUNDS",
+        "article_id": "article_id",
+        "publication_date": "2012092419",
+        "year": 2012,
+        "source_name": "ABC News",
+        "confidence": 0.95,
+        "evidence": "But as 2012 winds down, the panels \u2014 which the Department of Energy had said would likely produce 19,700 kilowatt hours of electricity a year, more than twice the electricity used by the average Washington home \u2014 have still not been installed, and many are asking where are they Mr. President?",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "person:bill_mckibben",
+        "target": "project:white_house_solar_panels",
+        "relationship": "ANNOUNCES",
+        "article_id": "article_id",
+        "publication_date": "2012092419",
+        "year": 2010,
+        "source_name": "ABC News",
+        "confidence": 0.95,
+        "evidence": "When the Obama administration announced they were indeed installing new panels McKibben was excited, suggesting that as a national role model, solar panels on the White House could inspire people across the country to follow suit.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:department_of_energy",
+        "target": "location:united_states",
+        "relationship": "REPORTS",
+        "article_id": "article_id",
+        "publication_date": "2012092419",
+        "year": 2012,
+        "source_name": "ABC News",
+        "confidence": 0.95,
+        "evidence": "\"As the costs of solar energy have continued to drop, the United States has seen tremendous growth in solar energy installations,\" DOE spokeswoman Jen Stutsman told ABC News.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:department_of_energy",
+        "target": "location:united_states",
+        "relationship": "REPORTS",
+        "article_id": "article_id",
+        "publication_date": "2012092419",
+        "year": 2012,
+        "source_name": "ABC News",
+        "confidence": 0.95,
+        "evidence": "\"Over the last four years, solar energy in the U.S. has more than doubled and the industry now employs 100,000 American workers \u2014 in design, construction, installation, manufacturing and more,\"",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2011-01-17",
+    "source": "Reuters",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "project:finow_solar_park",
+        "type": "Project",
+        "properties": {
+          "name": "Finow Solar Park",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": "90,000 solar modules",
+          "location": "Eberswalde, Germany",
+          "time_period": "2009-present (as of 2011)",
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar power park",
+          "solar park",
+          "Finow Solar Park"
+        ]
+      },
+      {
+        "id": "company:suntech_power_holdings",
+        "type": "Company",
+        "properties": {
+          "name": "Suntech Power Holdings",
+          "ticker": null,
+          "headquarters": null,
+          "country": "China",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Suntech Power Holdings",
+          "Suntech"
+        ]
+      },
+      {
+        "id": "company:conergy",
+        "type": "Company",
+        "properties": {
+          "name": "Conergy",
+          "ticker": null,
+          "headquarters": null,
+          "country": "Germany",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Conergy"
+        ]
+      },
+      {
+        "id": "company:solarhybrid",
+        "type": "Company",
+        "properties": {
+          "name": "Solarhybrid",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Solarhybrid"
+        ]
+      },
+      {
+        "id": "policy:german_renewable_subsidies",
+        "type": "Policy",
+        "properties": {
+          "name": "German Renewable Subsidies",
+          "ticker": null,
+          "headquarters": null,
+          "country": "Germany",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": "subsidy",
+          "jurisdiction": "Germany",
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Germany's renewable subsidies",
+          "German supports"
+        ]
+      },
+      {
+        "id": "policy:us_cash_grant_program",
+        "type": "Policy",
+        "properties": {
+          "name": "U.S. Cash Grant Program",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": "grant",
+          "jurisdiction": "United States",
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "cash grant program"
+        ]
+      },
+      {
+        "id": "company:first_solar",
+        "type": "Company",
+        "properties": {
+          "name": "First Solar",
+          "ticker": null,
+          "headquarters": null,
+          "country": "United States",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "First Solar Inc",
+          "First Solar"
+        ]
+      },
+      {
+        "id": "governmentagency:china_development_bank",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "China Development Bank",
+          "ticker": null,
+          "headquarters": null,
+          "country": "China",
+          "government_level": "federal",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "China Development Bank"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:solarhybrid",
+        "target": "project:finow_solar_park",
+        "relationship": "BUILDS",
+        "article_id": "article_id",
+        "publication_date": "2011-01-17",
+        "year": 2011,
+        "source_name": "Reuters",
+        "confidence": 0.95,
+        "evidence": "Solarhybrid, which spearheaded construction of the park, says reductions in Germany's renewable subsidies meant it had to use Suntech modules to stay competitive.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:suntech_power_holdings",
+        "target": "project:finow_solar_park",
+        "relationship": "SUPPLIES",
+        "article_id": "article_id",
+        "publication_date": "2011-01-17",
+        "year": 2011,
+        "source_name": "Reuters",
+        "confidence": 0.95,
+        "evidence": "When the first solar modules arrived for installation they came not from a local manufacturer -- German solar company Conergy runs a factory just 45 minutes away in Frankfurt an der Oder, for instance -- but from China's Suntech Power Holdings, now the world's largest maker of photovoltaic (PV) solar modules.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "policy:german_renewable_subsidies",
+        "target": "project:finow_solar_park",
+        "relationship": "SUBSIDIZES",
+        "article_id": "article_id",
+        "publication_date": "2011-01-17",
+        "year": 2011,
+        "source_name": "Reuters",
+        "confidence": 0.95,
+        "evidence": "Solarhybrid, which spearheaded construction of the park, says reductions in Germany's renewable subsidies meant it had to use Suntech modules to stay competitive.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "policy:us_cash_grant_program",
+        "target": "company:first_solar",
+        "relationship": "SUBSIDIZES",
+        "article_id": "article_id",
+        "publication_date": "2011-01-17",
+        "year": 2011,
+        "source_name": "Reuters",
+        "confidence": 0.95,
+        "evidence": "Last month Washington extended for a year a popular cash grant program that pays 30 percent of the development costs to build power plants that use solar modules.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:china_development_bank",
+        "target": "company:suntech_power_holdings",
+        "relationship": "FUNDS",
+        "article_id": "article_id",
+        "publication_date": "2011-01-17",
+        "year": 2011,
+        "source_name": "Reuters",
+        "confidence": 0.95,
+        "evidence": "Suntech signed an agreement with China Development Bank in April that gives it access to up to 50 billion yuan ($7.3 billion) to help finance its expansion.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2015-06-24",
+    "source": "CNBC",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "technology:ultralow_power_circuit",
+        "type": "Technology",
+        "properties": {
+          "name": "ultralow-power circuit",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "ultralow-power circuit",
+          "small circuit",
+          "new MIT circuit"
+        ]
+      },
+      {
+        "id": "organization:mit",
+        "type": "Organization",
+        "properties": {
+          "name": "MIT",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "university",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "MIT"
+        ]
+      },
+      {
+        "id": "person:dina_reda_el_damak",
+        "type": "Person",
+        "properties": {
+          "name": "Dina Reda El-Damak",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "engineer"
+        },
+        "mentions": [
+          "Dina Reda El-Damak"
+        ]
+      },
+      {
+        "id": "person:anantha_chandrakasan",
+        "type": "Person",
+        "properties": {
+          "name": "Anantha Chandrakasan",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "engineer"
+        },
+        "mentions": [
+          "Anantha Chandrakasan"
+        ]
+      },
+      {
+        "id": "company:texas_instruments",
+        "type": "Company",
+        "properties": {
+          "name": "Texas Instruments",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Texas Instruments"
+        ]
+      },
+      {
+        "id": "company:taiwan_semiconductor_manufacturing",
+        "type": "Company",
+        "properties": {
+          "name": "Taiwan Semiconductor Manufacturing",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Taiwan Semiconductor Manufacturing"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "organization:mit",
+        "target": "technology:ultralow_power_circuit",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "2015-06-24",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Two MIT engineers who developed the chip say it does a far better job of converting the energy captured by solar cells into usable electricity than current technology does.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "person:dina_reda_el_damak",
+        "target": "technology:ultralow_power_circuit",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "2015-06-24",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Two MIT engineers who developed the chip say it does a far better job of converting the energy captured by solar cells into usable electricity than current technology does.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "person:anantha_chandrakasan",
+        "target": "technology:ultralow_power_circuit",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "2015-06-24",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "Two MIT engineers who developed the chip say it does a far better job of converting the energy captured by solar cells into usable electricity than current technology does.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:texas_instruments",
+        "target": "person:dina_reda_el_damak",
+        "relationship": "FUNDS",
+        "article_id": "article_id",
+        "publication_date": "2015-06-24",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "El-Damak was funded by a Texas Instruments Fellowship for Women in Microelectronics.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:taiwan_semiconductor_manufacturing",
+        "target": "technology:ultralow_power_circuit",
+        "relationship": "MANUFACTURES",
+        "article_id": "article_id",
+        "publication_date": "2015-06-24",
+        "year": 2015,
+        "source_name": "CNBC",
+        "confidence": 0.95,
+        "evidence": "the chip was fabricated by Taiwan Semiconductor Manufacturing.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "20150524083121",
+    "source": "http://web.archive.org/web/20150524083121id_/http://www.nytimes.com/1981/07/23/business/technology-solar-collector-development.html",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:exxon",
+        "type": "Company",
+        "properties": {
+          "name": "Exxon",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Exxon"
+        ]
+      },
+      {
+        "id": "company:daystar",
+        "type": "Company",
+        "properties": {
+          "name": "Daystar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Daystar"
+        ]
+      },
+      {
+        "id": "company:american_solar_king_corporation",
+        "type": "Company",
+        "properties": {
+          "name": "American Solar King Corporation",
+          "ticker": null,
+          "headquarters": "Waco, Tex.",
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "American Solar King Corporation"
+        ]
+      },
+      {
+        "id": "company:olin_corporation",
+        "type": "Company",
+        "properties": {
+          "name": "Olin Corporation",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Olin Corporation"
+        ]
+      },
+      {
+        "id": "technology:solar_collectors",
+        "type": "Technology",
+        "properties": {
+          "name": "Solar Collectors",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar collectors"
+        ]
+      },
+      {
+        "id": "organization:arthur_d_little_inc",
+        "type": "Organization",
+        "properties": {
+          "name": "Arthur D. Little Inc.",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "engineering",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Arthur D. Little Inc."
+        ]
+      },
+      {
+        "id": "company:solaron_corporation",
+        "type": "Company",
+        "properties": {
+          "name": "Solaron Corporation",
+          "ticker": null,
+          "headquarters": "Denver",
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Solaron Corporation"
+        ]
+      },
+      {
+        "id": "governmentagency:department_of_energy",
+        "type": "GovernmentAgency",
+        "properties": {
+          "name": "Department of Energy",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": "federal",
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Department of Energy"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:exxon",
+        "target": "company:daystar",
+        "relationship": "OWNS",
+        "article_id": "article_id",
+        "publication_date": "20150524083121",
+        "year": 1981,
+        "source_name": "NYTimes.com",
+        "confidence": 0.95,
+        "evidence": "Exxon quietly sold Daystar, a subsidiary that produced solar collectors for space and water heating, to the American Solar King Corporation.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:exxon",
+        "target": "company:american_solar_king_corporation",
+        "relationship": "SUPPLIES",
+        "article_id": "article_id",
+        "publication_date": "20150524083121",
+        "year": 1981,
+        "source_name": "NYTimes.com",
+        "confidence": 0.95,
+        "evidence": "Exxon quietly sold Daystar, a subsidiary that produced solar collectors for space and water heating, to the American Solar King Corporation.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:olin_corporation",
+        "target": "technology:solar_collectors",
+        "relationship": "MANUFACTURES",
+        "article_id": "article_id",
+        "publication_date": "20150524083121",
+        "year": 1981,
+        "source_name": "NYTimes.com",
+        "confidence": 0.95,
+        "evidence": "Olin Corporation, a chemical and metals company that had sales of $1.85 billion in 1980, decided not only to cease its test-marketing of collectors, but also to terminate production of the copper plates it had sold to other solar collector producers under the trade name Solar-Bond.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "organization:arthur_d_little_inc",
+        "target": "company:solaron_corporation",
+        "relationship": "SUPPLIES",
+        "article_id": "article_id",
+        "publication_date": "20150524083121",
+        "year": 1981,
+        "source_name": "NYTimes.com",
+        "confidence": 0.95,
+        "evidence": "The invention has been licensed to the Solaron Corporation of Denver for manufacturing and marketing, which could begin next year.",
+        "temporal_qualifier": "next year",
+        "prediction_sentiment": null
+      },
+      {
+        "source": "governmentagency:department_of_energy",
+        "target": "technology:solar_collectors",
+        "relationship": "REPORTS",
+        "article_id": "article_id",
+        "publication_date": "20150524083121",
+        "year": 1981,
+        "source_name": "NYTimes.com",
+        "confidence": 0.95,
+        "evidence": "Shipments rose 37 percent in 1980, compared with 1979, according to the Department of Energy.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "20160713002417",
+    "source": "http://web.archive.org/web/20160713002417id_/http://www.sfgate.com:80/bayarea/article/BART-service-stopped-between-Pleasant-Hill-and-7467775.php",
     "unrelated": true,
     "nodes": [],
     "edges": []
   },
   {
     "article_id": "article_id",
-    "publication_date": "20131228212232",
-    "source": "http://web.archive.org/web/20131228212232id_/http://www.theguardian.com/artanddesign/2008/oct/31/architecture-housing",
-    "unrelated": true,
-    "nodes": [],
-    "edges": []
+    "publication_date": "2011042919",
+    "source": "https://web.archive.org/web/2011042919id_/http://www.nytimes.com/2011/04/28/science/earth/28solar.html",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:public_service_electric_and_gas_company",
+        "type": "Company",
+        "properties": {
+          "name": "Public Service Electric and Gas Company",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Public Service Electric and Gas Company",
+          "PSE&G"
+        ]
+      },
+      {
+        "id": "location:new_jersey",
+        "type": "Location",
+        "properties": {
+          "name": "New Jersey",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "state",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "New Jersey"
+        ]
+      },
+      {
+        "id": "project:solar_panel_installation",
+        "type": "Project",
+        "properties": {
+          "name": "Solar Panel Installation",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "New Jersey",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "installations",
+          "solar projects"
+        ]
+      },
+      {
+        "id": "policy:renewable_energy_mandate",
+        "type": "Policy",
+        "properties": {
+          "name": "Renewable Energy Mandate",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": "renewable_standard",
+          "jurisdiction": "New Jersey",
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "state mandate"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:public_service_electric_and_gas_company",
+        "target": "project:solar_panel_installation",
+        "relationship": "BUILDS",
+        "article_id": "article_id",
+        "publication_date": "2011042919",
+        "year": 2011,
+        "source_name": "https://web.archive.org/web/2011042919id_/http://www.nytimes.com/2011/04/28/science/earth/28solar.html",
+        "confidence": 0.95,
+        "evidence": "installations have been popping up across New Jersey for about a year now, courtesy of New Jersey's largest utility, the Public Service Electric and Gas Company.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "policy:renewable_energy_mandate",
+        "target": "project:solar_panel_installation",
+        "relationship": "REGULATES",
+        "article_id": "article_id",
+        "publication_date": "2011042919",
+        "year": 2011,
+        "source_name": "https://web.archive.org/web/2011042919id_/http://www.nytimes.com/2011/04/28/science/earth/28solar.html",
+        "confidence": 0.95,
+        "evidence": "The solar installations, the first and most extensive of their kind in the country, are part of a $515 million investment in solar projects by PSE&G under a state mandate that by 2021 power providers get 23 percent of their electricity from renewable sources.",
+        "temporal_qualifier": "by 2021",
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:public_service_electric_and_gas_company",
+        "target": "location:new_jersey",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "2011042919",
+        "year": 2011,
+        "source_name": "https://web.archive.org/web/2011042919id_/http://www.nytimes.com/2011/04/28/science/earth/28solar.html",
+        "confidence": 0.95,
+        "evidence": "installations have been popping up across New Jersey for about a year now, courtesy of New Jersey's largest utility, the Public Service Electric and Gas Company.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2013070919",
+    "source": "https://web.archive.org/web/2013070919id_/http://www.chicagotribune.com/news/plus/forbes/chi-nsc-forbes-toledo,0,5288147.story",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "person:michael_bell",
+        "type": "Person",
+        "properties": {
+          "name": "Michael Bell",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Michael Bell",
+          "Bell"
+        ]
+      },
+      {
+        "id": "location:toledo",
+        "type": "Location",
+        "properties": {
+          "name": "Toledo",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "city",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Toledo",
+          "Toledo, Ohio"
+        ]
+      },
+      {
+        "id": "organization:university_of_toledo",
+        "type": "Organization",
+        "properties": {
+          "name": "University of Toledo",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "university",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "University of Toledo"
+        ]
+      },
+      {
+        "id": "company:first_solar",
+        "type": "Company",
+        "properties": {
+          "name": "First Solar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "First Solar"
+        ]
+      },
+      {
+        "id": "company:isofoton",
+        "type": "Company",
+        "properties": {
+          "name": "Isofoton",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Isofoton"
+        ]
+      },
+      {
+        "id": "location:napoleon",
+        "type": "Location",
+        "properties": {
+          "name": "Napoleon",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": "city",
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Napoleon"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "organization:university_of_toledo",
+        "target": "technology:thin_film_solar_panels",
+        "relationship": "DEVELOPS",
+        "article_id": "article_id",
+        "publication_date": "2013070919",
+        "year": 2013,
+        "source_name": "Chicago Tribune",
+        "confidence": 0.95,
+        "evidence": "Thin-film solar panels, for example, were partially developed at the University of Toledo, making the region a natural hub for solar energy research.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:first_solar",
+        "target": "technology:thin_film_solar_panels",
+        "relationship": "MANUFACTURES",
+        "article_id": "article_id",
+        "publication_date": "2013070919",
+        "year": 2013,
+        "source_name": "Chicago Tribune",
+        "confidence": 0.95,
+        "evidence": "First Solar, a company with ties to the school, has a large plant near Toledo, as do several other solar companies.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:isofoton",
+        "target": "technology:thin_film_solar_panels",
+        "relationship": "MANUFACTURES",
+        "article_id": "article_id",
+        "publication_date": "2013070919",
+        "year": 2013,
+        "source_name": "Chicago Tribune",
+        "confidence": 0.95,
+        "evidence": "Spain's Isofoton is the newest player, opening a plant in nearby Napoleon.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "company:isofoton",
+        "target": "location:napoleon",
+        "relationship": "LOCATED_IN",
+        "article_id": "article_id",
+        "publication_date": "2013070919",
+        "year": 2013,
+        "source_name": "Chicago Tribune",
+        "confidence": 0.95,
+        "evidence": "Spain's Isofoton is the newest player, opening a plant in nearby Napoleon.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2014-01-20",
+    "source": "Fox News",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "organization:penn_state",
+        "type": "Organization",
+        "properties": {
+          "name": "Penn State",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "university",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Penn State"
+        ]
+      },
+      {
+        "id": "project:lunar_lion",
+        "type": "Project",
+        "properties": {
+          "name": "Lunar Lion",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": "moon",
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Lunar Lion",
+          "Penn State lander"
+        ]
+      },
+      {
+        "id": "company:boeing",
+        "type": "Company",
+        "properties": {
+          "name": "Boeing",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Boeing"
+        ]
+      },
+      {
+        "id": "technology:solar_panels",
+        "type": "Technology",
+        "properties": {
+          "name": "solar panels",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "solar panels",
+          "solar cells"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "company:boeing",
+        "target": "technology:solar_panels",
+        "relationship": "SUPPLIES",
+        "article_id": "article_id",
+        "publication_date": "2014-01-20",
+        "year": 2014,
+        "source_name": "Fox News",
+        "confidence": 0.95,
+        "evidence": "Boeing recently donated 10 solar panels from a communication satellite to the school, a gift worth more than $7 million, Paul said.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "technology:solar_panels",
+        "target": "project:lunar_lion",
+        "relationship": "DEPLOYS",
+        "article_id": "article_id",
+        "publication_date": "2014-01-20",
+        "year": 2014,
+        "source_name": "Fox News",
+        "confidence": 0.95,
+        "evidence": "Some of the solar cells will go directly on the Lunar Lion.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
+  },
+  {
+    "article_id": "article_id",
+    "publication_date": "2008120719",
+    "source": "https://web.archive.org/web/2008120719id_/http://www.forbes.com/2008/10/02/green-energy-taxes-biz-energy-cx_ch_1002energy08_taxes.html",
+    "unrelated": false,
+    "nodes": [
+      {
+        "id": "company:standard_renewable_energy",
+        "type": "Company",
+        "properties": {
+          "name": "Standard Renewable Energy",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Standard Renewable Energy"
+        ]
+      },
+      {
+        "id": "person:john_berger",
+        "type": "Person",
+        "properties": {
+          "name": "John Berger",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "chief executive of Standard Renewable Energy"
+        },
+        "mentions": [
+          "John Berger"
+        ]
+      },
+      {
+        "id": "company:clear_skies_solar",
+        "type": "Company",
+        "properties": {
+          "name": "Clear Skies Solar",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Clear Skies Solar"
+        ]
+      },
+      {
+        "id": "person:ezra_green",
+        "type": "Person",
+        "properties": {
+          "name": "Ezra Green",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "chief executive of Clear Skies Solar"
+        },
+        "mentions": [
+          "Ezra Green"
+        ]
+      },
+      {
+        "id": "organization:solar_energy_industries_association",
+        "type": "Organization",
+        "properties": {
+          "name": "Solar Energy Industries Association",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": "association",
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Solar Energy Industries Association"
+        ]
+      },
+      {
+        "id": "person:rhone_resch",
+        "type": "Person",
+        "properties": {
+          "name": "Rhone Resch",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": "president of the Solar Energy Industries Association"
+        },
+        "mentions": [
+          "Rhone Resch"
+        ]
+      },
+      {
+        "id": "company:akeena_solar",
+        "type": "Company",
+        "properties": {
+          "name": "Akeena Solar",
+          "ticker": "AKNS",
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Akeena Solar"
+        ]
+      },
+      {
+        "id": "company:suntech",
+        "type": "Company",
+        "properties": {
+          "name": "Suntech",
+          "ticker": "STP",
+          "headquarters": null,
+          "country": "China",
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": null,
+          "jurisdiction": null,
+          "enactment_year": null,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "Suntech"
+        ]
+      },
+      {
+        "id": "policy:financial_rescue_package",
+        "type": "Policy",
+        "properties": {
+          "name": "Financial Rescue Package",
+          "ticker": null,
+          "headquarters": null,
+          "country": null,
+          "government_level": null,
+          "organization_type": null,
+          "policy_type": "legislation",
+          "jurisdiction": "United States",
+          "enactment_year": 2008,
+          "capacity": null,
+          "location": null,
+          "time_period": null,
+          "location_type": null,
+          "role_in_solar_energy_space": null
+        },
+        "mentions": [
+          "financial rescue package",
+          "bailout bill"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "policy:financial_rescue_package",
+        "target": "company:standard_renewable_energy",
+        "relationship": "SUBSIDIZES",
+        "article_id": "article_id",
+        "publication_date": "2008120719",
+        "year": 2008,
+        "source_name": "Forbes",
+        "confidence": 0.95,
+        "evidence": "Renewable energy providers will reap an immediate benefit from the raft of new incentives in Washington's financial rescue package.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "policy:financial_rescue_package",
+        "target": "company:akeena_solar",
+        "relationship": "SUBSIDIZES",
+        "article_id": "article_id",
+        "publication_date": "2008120719",
+        "year": 2008,
+        "source_name": "Forbes",
+        "confidence": 0.95,
+        "evidence": "The new incentives will be a shot in the arm to companies like Akeena Solar (nasdaq: AKNS - news - people ), one of the largest residential solar panel installers, which cut 10% of its staff this year.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "policy:financial_rescue_package",
+        "target": "company:clear_skies_solar",
+        "relationship": "SUBSIDIZES",
+        "article_id": "article_id",
+        "publication_date": "2008120719",
+        "year": 2008,
+        "source_name": "Forbes",
+        "confidence": 0.95,
+        "evidence": "But if this bill doesn't go through, it's the end of solar power installation in America.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      },
+      {
+        "source": "policy:financial_rescue_package",
+        "target": "organization:solar_energy_industries_association",
+        "relationship": "SUBSIDIZES",
+        "article_id": "article_id",
+        "publication_date": "2008120719",
+        "year": 2008,
+        "source_name": "Forbes",
+        "confidence": 0.95,
+        "evidence": "Resch spent the first half of the week lobbying Congress not to let the energy incentives languish.",
+        "temporal_qualifier": null,
+        "prediction_sentiment": null
+      }
+    ]
   }
 ]
